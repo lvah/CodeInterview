@@ -42,7 +42,7 @@ def main():
     # 通过将列表格式转换为集合格式，去除列表中重复的元素；
     lastNeed = set(need)
      
-    # 使用pyhton内置函数len(),得到需要材料的个数；
+    # 使用python内置函数len(),得到需要材料的个数；
     return  len(lastNeed)
 
 if __name__ == "__main__":
